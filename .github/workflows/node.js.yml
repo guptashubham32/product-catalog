@@ -45,4 +45,4 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync build/ s3://YOUR_BUCKET_NAME_HERE/
+          aws s3 sync build/ s3://frontendpatest/
